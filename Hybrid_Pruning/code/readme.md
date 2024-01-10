@@ -7,7 +7,7 @@
     - You can find the files [here](https://github.com/pytorch/vision/tree/release/0.10/torchvision/models/detection).
     - Required files are: ![Alt text](image.png)
 
-3. Add our custom model parts
+3. Add our own custom model parts
     - Put "ssd_load_.py" into "mmdet/models/backbones/".
     - Put "direct_.py" into "mmdet/models/necks/".
 4. Modify mmdet
@@ -17,4 +17,4 @@
     - These modifications fix the issue of different coco classes number and backgroound cat_id.
 
 ## Usage
-See [Hybrid_pruning_combine2methods.ipynb](Hybrid_Pruning/code/Hybrid_pruning_combine2methods.ipynb)
+See [Hybrid_pruning_combine2methods.ipynb](Hybrid_pruning_combine2methods.ipynb)
